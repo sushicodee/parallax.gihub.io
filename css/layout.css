@@ -1,2 +1,72 @@
+body,html{
+    height:100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url('../assets/images/alone-buildings-city-cityscape-220444.jpg');
+    min-height: 100%;
+    background-position-y:center;
+}
+.pimg2{
+    background-image: url('../assets/images/architectural-design-architecture-buildings-city-373893.jpg');
+    min-height: 400px;
+    background-position-y:center;
 
 
+}
+.pimg3{
+    background-image: url('../assets/images/architecture-buildings-city-fog-373965.jpg');
+    min-height: 400px;
+    background-position-y:center;
+
+}
+
+.pimg1,.pimg2,.pimg3{
+
+    position:relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.section{
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.section-light{
+    color:#666;
+    background-color: #ddd;
+}
+
+.section-dark{
+    color:#ddd;
+    background-color: #282e34;
+}
+
+.ptext{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:32px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color:#111;
+    color:#ddd;
+    padding: 20px;
+}
+.ptext .trans{
+    background-color: transparent;
+}
